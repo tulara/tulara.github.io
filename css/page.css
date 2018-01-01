@@ -10,11 +10,21 @@ body {
 }
 
 .home {
-	background: url('../images/shawl3.jpg') no-repeat bottom right fixed;
+	background: url('../images/shawl-mobile.jpg') no-repeat bottom right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+@media only screen and (min-width:800px) {
+	.home {
+		background: url('../images/shawl-desktop.jpg') no-repeat bottom right fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
 
 .patterns {
@@ -51,23 +61,20 @@ a {
 	text-align: center;
 }
 
-.logo {
-	border-bottom: dashed 2px #adad85;
-}
-
 .nav-left {
 	border-radius:5px;
 	font-family:'Adlery';
 	font-size:40px;
-	margin-left: 50px;
-	padding: 20px;
+	padding: 5%;
+	margin:5%;
 	text-align: center;
-	width: 70%;
+	width: 80%;
 }
 
 @media only screen and (min-width:1024px) {
 	.nav-left {
 		width: 260px;
+		margin-left: 50px;
 	}
 }
 
@@ -99,7 +106,7 @@ a {
 .nav-left h2 {
 	margin:0;
 	/*border-bottom: dashed 2px #cc9900;*/
-	border-bottom: dashed 2px #adad85;
+	border-top: dashed 2px #adad85;
 
 	color:#cc9900;
 	padding-bottom:15px;
