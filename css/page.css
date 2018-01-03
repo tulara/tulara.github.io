@@ -36,11 +36,16 @@ body {
 }
 
 header {
-	/* background-color: rgba(255, 255, 255, 0.9); */
-	background-color: rgba(204, 153, 0, 0.9);
-	margin:0 0 20px 0;
-	padding:10px;
-	text-align:center;
+	background-color: rgba(255, 255, 255, 0.9);
+	font-family: 'Adlery';
+	font-size: 30px;
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header a {
+	color: black;
 }
 
 h1 {
@@ -53,6 +58,13 @@ p {
 
 a {
 	text-decoration: none;
+}
+
+.banner {
+	background-color: rgba(204, 153, 0, 0.9);
+	margin:0;
+	padding:10px;
+	text-align:center;
 }
 
 .content {
