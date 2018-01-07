@@ -1,0 +1,32 @@
+.social-media-buttons {
+	display: flex;
+	padding-top:5px;
+}
+
+.button {
+	flex-grow:1;
+  fill:$color-black;
+	opacity:0.7;
+}
+
+.pinterest {
+	height:65px;
+	width:65px;
+}
+
+.instagram {
+	margin-top:8px;
+	height:55px;
+	width:55px;
+}
+
+.store {
+	margin-left:10px;
+	margin-top: 2px;
+	height:80px;
+	width:80px;
+}
+
+.button:hover {
+	opacity:1;
+}

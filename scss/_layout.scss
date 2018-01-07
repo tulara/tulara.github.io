@@ -1,0 +1,30 @@
+@mixin background-cover($img-path) {
+  background: url($img-path) no-repeat bottom right fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.home {
+  @include background-cover('../images/shawl-mobile.jpg');
+
+  @media #{$screen-desktop} {
+    @include background-cover('../images/shawl-desktop.jpg');
+  }
+}
+
+header {
+	background-color: $color-white-9;
+	font-family: $font-headings;
+	font-size: 30px;
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+	text-align: center;
+}

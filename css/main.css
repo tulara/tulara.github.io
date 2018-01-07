@@ -2,22 +2,59 @@
   font-family: 'Adlery';
   src: url("fonts/adlery-pro.swash.ttf") format("truetype"); }
 
+.home {
+  background: url("../images/shawl-mobile.jpg") no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    .home {
+      background: url("../images/shawl-desktop.jpg") no-repeat bottom right fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; } }
+
+header {
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: "Adlery";
+  font-size: 30px;
+  padding-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center; }
+
 body {
   background-color: #ffece5;
   font-family: Helvetica, sans-serif;
   margin: 0; }
 
-h1 {
-  font-family: "Adlery"; }
+h1, h2 {
+  font-family: "Adlery";
+  margin: 0; }
 
 p {
   font-size: 18px; }
 
 a {
+  color: #cc9900;
   text-decoration: none; }
+
+a:hover {
+  color: #adad85; }
 
 header a {
   color: black; }
+
+.banner {
+  background-color: rgba(204, 153, 0, 0.9);
+  padding: 10px;
+  text-align: center; }
 
 .sidebar-left {
   border-radius: 5px;
@@ -28,7 +65,7 @@ header a {
   text-align: center;
   width: 80%; }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .sidebar-left {
     width: 260px;
     padding: 20px 20px 0 20px;
@@ -40,30 +77,43 @@ header a {
 .sidebar-left__patterns {
   background-color: rgba(242, 242, 242, 0.2); }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 992px) {
   .sidebar-left__home {
     background-color: rgba(242, 242, 242, 0.2); } }
 
-.sidebar-left__projects {
-  background-color: rgba(255, 255, 255, 0.8); }
-
-.sidebar-left h1 {
-  margin: 0; }
-
 .sidebar-left h2 {
-  margin: 0;
   border-top: dashed 2px #adad85;
-  color: #cc9900;
   padding-bottom: 15px;
   padding-top: 20px; }
 
-.sidebar-left a {
-  color: #cc9900; }
-
-.sidebar-left a:hover {
-  color: #adad85; }
-
-.sidebar-left p {
+.sidebar-left_subheading {
   font-size: 20px;
   margin: -10px;
   padding-bottom: 20px; }
+
+.social-media-buttons {
+  display: flex;
+  padding-top: 5px; }
+
+.button {
+  flex-grow: 1;
+  fill: black;
+  opacity: 0.7; }
+
+.pinterest {
+  height: 65px;
+  width: 65px; }
+
+.instagram {
+  margin-top: 8px;
+  height: 55px;
+  width: 55px; }
+
+.store {
+  margin-left: 10px;
+  margin-top: 2px;
+  height: 80px;
+  width: 80px; }
+
+.button:hover {
+  opacity: 1; }

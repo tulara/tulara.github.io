@@ -4,8 +4,9 @@ body {
 		margin: 0;
 }
 
-h1 {
+h1, h2 {
 	font-family: $font-headings;
+  margin: 0;
 }
 
 p {
@@ -13,7 +14,12 @@ p {
 }
 
 a {
+  color: $color-primary;
 	text-decoration: none;
+}
+
+a:hover {
+  color: $color-gold;
 }
 
 header a {

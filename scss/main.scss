@@ -1,6 +1,9 @@
 @import 'screens';
 @import 'fonts/fonts';
 @import 'colors';
-
+@import 'layout';
 @import 'resets';
+
+@import 'components/banner';
 @import 'components/sidebar-left';
+@import 'components/social-media-buttons';
