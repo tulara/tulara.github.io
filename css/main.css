@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Adlery';
+  src: url("fonts/adlery-pro.swash.ttf") format("truetype"); }
+
+body {
+  background-color: #ffece5;
+  font-family: Helvetica, sans-serif;
+  margin: 0; }
+
+h1 {
+  font-family: "Adlery"; }
+
+p {
+  font-size: 18px; }
+
+a {
+  text-decoration: none; }
+
+header a {
+  color: black; }
+
+.sidebar-left {
+  border-radius: 5px;
+  font-family: "Adlery";
+  font-size: 40px;
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+  width: 80%; }
+
+@media (min-width: 1024px) {
+  .sidebar-left {
+    width: 260px;
+    padding: 20px 20px 0 20px;
+    margin: 10px 0 0 50px; } }
+
+.sidebar-left__home {
+  background-color: rgba(242, 242, 242, 0.9); }
+
+.sidebar-left__patterns {
+  background-color: rgba(242, 242, 242, 0.2); }
+
+@media only screen and (min-width: 1024px) {
+  .sidebar-left__home {
+    background-color: rgba(242, 242, 242, 0.2); } }
+
+.sidebar-left__projects {
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.sidebar-left h1 {
+  margin: 0; }
+
+.sidebar-left h2 {
+  margin: 0;
+  border-top: dashed 2px #adad85;
+  color: #cc9900;
+  padding-bottom: 15px;
+  padding-top: 20px; }
+
+.sidebar-left a {
+  color: #cc9900; }
+
+.sidebar-left a:hover {
+  color: #adad85; }
+
+.sidebar-left p {
+  font-size: 20px;
+  margin: -10px;
+  padding-bottom: 20px; }
