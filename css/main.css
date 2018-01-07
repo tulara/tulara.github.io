@@ -79,7 +79,7 @@ header a {
 
 @media (min-width: 992px) {
   .sidebar-left__home {
-    background-color: rgba(242, 242, 242, 0.2); } }
+    background-color: rgba(242, 242, 242, 0.4); } }
 
 .sidebar-left h2 {
   border-top: dashed 2px #adad85;
