@@ -16,19 +16,6 @@
       -o-background-size: cover;
       background-size: cover; } }
 
-header {
-  background-color: rgba(255, 255, 255, 0.9);
-  font-family: "Adlery";
-  font-size: 30px;
-  padding-left: 5%;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.content {
-  margin: 0 auto;
-  width: 800px;
-  text-align: center; }
-
 body {
   background-color: #ffece5;
   font-family: Helvetica, sans-serif;
@@ -36,6 +23,12 @@ body {
 
 h1, h2 {
   font-family: "Adlery";
+  margin: 0; }
+
+h2 {
+  font-size: 50px; }
+
+h4 {
   margin: 0; }
 
 p {
@@ -68,7 +61,7 @@ header a {
 @media (min-width: 992px) {
   .sidebar-left {
     width: 260px;
-    padding: 20px 20px 0 20px;
+    padding: 15px;
     margin: 10px 0 0 50px; } }
 
 .sidebar-left__home {
@@ -82,7 +75,7 @@ header a {
     background-color: rgba(242, 242, 242, 0.4); } }
 
 .sidebar-left h2 {
-  border-top: dashed 2px #adad85;
+  border-bottom: dashed 2px #adad85;
   padding-bottom: 15px;
   padding-top: 20px; }
 
@@ -90,6 +83,9 @@ header a {
   font-size: 20px;
   margin: -10px;
   padding-bottom: 20px; }
+
+a.home-link {
+  color: black; }
 
 .social-media-buttons {
   display: flex;
@@ -117,3 +113,23 @@ header a {
 
 .button:hover {
   opacity: 1; }
+
+.button object, .button svg, .button path {
+  cursor: pointer; }
+
+.contact-us {
+  color: white;
+  display: flex; }
+
+.contact-us__button {
+  background-color: #cc9900;
+  border-radius: 5px;
+  flex-grow: 1;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 2px 2px 5px 2px;
+  padding: 10px 0 5px 0;
+  vertical-align: bottom; }
+
+.contact-us__button:hover {
+  background-color: #adad85; }

@@ -30,3 +30,7 @@
 .button:hover {
 	opacity:1;
 }
+
+.button object, .button svg, .button path {
+	cursor: pointer;
+}

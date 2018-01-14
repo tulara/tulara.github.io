@@ -1,0 +1,20 @@
+.contact-us {
+  color: white;
+  display:flex;
+}
+
+.contact-us__button {
+    // background-color: $color-black;
+    background-color: $color-primary;
+    border-radius:5px;
+  	flex-grow:1;
+    font-size: 26px;
+    font-weight:normal;
+    margin: 2px 2px 5px 2px;
+    padding:10px 0 5px 0;
+    vertical-align:bottom;
+}
+
+.contact-us__button:hover {
+  background-color: $color-gold;
+}

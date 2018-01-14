@@ -13,18 +13,3 @@
     @include background-cover('../images/shawl-desktop.jpg');
   }
 }
-
-header {
-	background-color: $color-white-9;
-	font-family: $font-headings;
-	font-size: 30px;
-	padding-left: 5%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.content {
-  margin: 0 auto;
-  width: 800px;
-	text-align: center;
-}
